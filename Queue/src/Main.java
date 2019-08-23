@@ -1,5 +1,4 @@
-import queuepractice.Queue_v1;
-import queuepractice.Queue_v2;
+import queuepractice.*;
 
 public class Main {
 
@@ -68,25 +67,42 @@ public class Main {
 //		queue.traverseQ2();
 		
 		// Test 5
+//		Queue_v2 queue = new Queue_v2(7);
+//		queue.enqueue(7);
+//		queue.enqueue(3);
+//		queue.enqueue(14);
+//		queue.enqueue(9);
+//		queue.enqueue(1000);
+//		queue.enqueue(78);
+//		
+//		System.out.println("\n******************* before dequeue *******************\n");
+//		queue.showAll();
+//		System.out.println();
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println("\n******************* after dequeue *******************\n");
+//		queue.showAll();
 		
-		Queue_v2 queue = new Queue_v2(7);
-		queue.enqueue(7);
-		queue.enqueue(3);
-		queue.enqueue(14);
-		queue.enqueue(9);
-		queue.enqueue(1000);
-		queue.enqueue(78);
+		//Test 6
+		Queue_v3 queue = new Queue_v3(5);
+		PersonQueue2 p1 = new PersonQueue2("Deron", 23, "Green");
+		PersonQueue2 p2 = new PersonQueue2("A'Tori", 23, "Purple");
+		PersonQueue2 p3 = new PersonQueue2("Renee", 48, "Red");
+		PersonQueue2 p4 = new PersonQueue2("Michea", 27, "Blue");
+		queue.enqueue(p1);
+		queue.enqueue(p2);
+		queue.enqueue(p3);
+		queue.enqueue(p4);
+
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
+		System.out.println(queue.dequeue());
 		
-		System.out.println("\n******************* before dequeue *******************\n");
-		queue.showAll();
-		System.out.println();
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println("\n******************* after dequeue *******************\n");
-		queue.showAll();
 	}
 
 }

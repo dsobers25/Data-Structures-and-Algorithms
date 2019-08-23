@@ -44,8 +44,8 @@ public class Queue_v2 implements QueueInterface1{
 			System.out.print("\nQueue is Empty. Dequeue could not be executed. Default value is: ");
 			return 0;
 		}
-			
 	}
+	
 	public boolean isFull() {
 		return (size == total);
 	}
