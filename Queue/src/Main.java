@@ -87,22 +87,50 @@ public class Main {
 //		queue.showAll();
 		
 		//Test 6
-		Queue_v3 queue = new Queue_v3(5);
-		PersonQueue2 p1 = new PersonQueue2("Deron", 23, "Green");
-		PersonQueue2 p2 = new PersonQueue2("A'Tori", 23, "Purple");
-		PersonQueue2 p3 = new PersonQueue2("Renee", 48, "Red");
-		PersonQueue2 p4 = new PersonQueue2("Michea", 27, "Blue");
-		queue.enqueue(p1);
-		queue.enqueue(p2);
-		queue.enqueue(p3);
-		queue.enqueue(p4);
-
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
-		System.out.println(queue.dequeue());
+//		Queue_v3 queue = new Queue_v3(5);
+//		PersonQueue2 p1 = new PersonQueue2("Deron", 23, "Green");
+//		PersonQueue2 p2 = new PersonQueue2("A'Tori", 23, "Purple");
+//		PersonQueue2 p3 = new PersonQueue2("Renee", 48, "Red");
+//		PersonQueue2 p4 = new PersonQueue2("Michea", 27, "Blue");
+//		queue.enqueue(p1);
+//		queue.enqueue(p2);
+//		queue.enqueue(p3);
+//		queue.enqueue(p4);
+//
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
+//		System.out.println(queue.dequeue());
 		
+		// Test 7
+//		
+//		Queue_v4 q = new Queue_v4(20);
+//		
+//		q.enqueue("Green");
+//		q.enqueue("Blue");
+//		q.enqueue("Red");
+//		q.enqueue("Orange");
+//		q.enqueue("Black");
+//		q.enqueue("Turqoise");
+//		q.enqueue("Yellow");
+//		
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+		
+		// Test 8
+//		Queue_v5 q = new Queue_v5(10);
+//		q.enqueue(1.5);
+//		q.enqueue(6.5);
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
+//		System.out.println(q.dequeue());
 	}
 
 }
